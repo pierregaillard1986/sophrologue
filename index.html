@@ -18,16 +18,20 @@
                     <a href="#" data-activates="mobile-demo" class="button-collapse right">
                         <i class="material-icons">menu</i>
                     </a>
-                    <a class="namewebsite">Thierry Fond Sophrologue</a>
+                    <a class="namewebsite" href="#coordonnees">Thierry Fond Sophrologue</a>
                     <ul class="right hide-on-med-and-down">
                         <li>
                             <a class="js-scrollTo" href="#accueil">Accueil</a>
                         </li>
                         <li>
-                            <a class="js-scrollTo" href="#champs">champs d'activités</a>
+                            <a class="js-scrollTo" href="#champs">Champs d'activités</a>
                         </li>
                         <li>
                             <a class="js-scrollTo" href="#coordonnees">Coordonnées et Tarifs</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" href="#!" data-activates="dropdown">Contactez-moi<i class="material-icons right">arrow_drop_down</i>
+                            </a>
                         </li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
@@ -35,10 +39,30 @@
                             <a class="js-scrollTo" href="#accueil">Accueil</a>
                         </li>
                         <li>
-                            <a class="js-scrollTo" href="#champs">champs d'activités</a>
+                            <a class="js-scrollTo" href="#champs">Champs d'activités</a>
                         </li>
                         <li>
                             <a class="js-scrollTo" href="#coordonnees">Coordonnées et Tarifs</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" href="#!" data-activates="dropdown">Contactez-moi<i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="dropdown" class="dropdown-content">
+                        <li>
+                            <i class="material-icons">mail</i>
+                            <a href="#!mailto:sophro28@outlook.fr">sophro28@outlook.fr</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <i class="material-icons">phone</i>
+                            <a href="#!tel:+33789331635">07 89 33 16 35</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <i class="material-icons">room</i>
+                            <a href="#!https://goo.gl/maps/tQ8qzUKrGVQ2">l'adresse</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col l12 m12 s12 container2" id="champs">
-                    <div class="col l6 offset-l5 paragraphe2">
+                    <div class="col l6 offset-l5   paragraphe2">
                         <h2>Champs d'activités</h2>
                         <p>
                             Les séances individuelles se déroulent dans mon cabinet. Leur durée est de 60 minutes. J’interviens en entreprises dans le cadre de séances de groupes. A la demande des Ressources humaines ou du comité d’établissement. bJ’interviens en milieu
@@ -65,9 +89,19 @@
                         </p>
                     </div>
                 </div>
-                <div class="col l12 l12 s12 container3" id="coordonnes">
-                    <div class="col l4 offset-l1 tarifs">
-                        <table>
+                <div class="col l12 s12 container3" id="coordonnees">
+                    <h2>Coordonnées et Tarifs</h2>
+                    <div class="col l5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.9122691742323!2d1.482733951380139!3d48.439023537994196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e40c5ad27f4e63%3A0xe9cc02675b09e416!2sThierry+Fond+Sophrologue!5e0!3m2!1sfr!2sfr!4v1477755383805"
+                            width="100%"
+                            height="250"
+                            frameborder="0"
+                            style="border:0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col l6 offset-l1  tarifs">
+                        <table class="responsive-table">
                             <thead>
                                 <tr>
                                     <th class="align" data-field="id">Séance</th>
@@ -76,27 +110,26 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>individuelle adulte d’une heure</td>
-                                    <tdclass="align">50 €</td>
+                                    <td class="bigcell">individuelle adulte d’une heure</td>
+                                    <td class="smallcell align">50 €</td>
                                 </tr>
                                 <tr>
-                                    <td>individuelle d’une heure pour les demandeurs d’emploi, les étudiants, les adolescents</td>
-                                    <tdclass="align">40 €</td>
+                                    <td class="bigcell">individuelle d’une heure pour les demandeurs d’emploi, les étudiants, les adolescents</td>
+                                    <td class="smallcell align">40 €</td>
                                 </tr>
                                 <tr>
-                                    <td>Sur devis. Le tarif indiqué ci-contre s’entend par personne pour une heure. Un groupe comprend a minima 3 personnes et au maximum 10 personnes.</td>
-                                    <tdclass="align">7 à 12 €</td>
+                                    <td class="bigcell">Groupe sur devis. Le tarif indiqué ci-contre s’entend par personne pour une heure. Un groupe comprend a minima 3 personnes et au maximum 10 personnes.</td>
+                                    <td class="smallcell align">7 à 12 €</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="col l3">
-                        <table>
+                    <div class="col l3 offset-l1  ">
+                        <table class="responsive-table">
                             <thead>
                                 <tr>
                                     <th class="align" data-field="id">Jours</th>
                                     <th class="align" data-field="name">Horaires d'ouverture</th>
-
                                 </tr>
                             </thead>
                             <tbody>
@@ -127,25 +160,28 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col l3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.9122691742323!2d1.482733951380139!3d48.439023537994196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e40c5ad27f4e63%3A0xe9cc02675b09e416!2sThierry+Fond+Sophrologue!5e0!3m2!1sfr!2sfr!4v1477755383805"
-                            width="450"
-                            height="450"
-                            frameborder="0"
-                            style="border:0"
-                            allowfullscreen></iframe>
+                    <div class="col l5 offset-l1">
+                        <div class="col l12">
+                            <p>
+                                <i class="material-icons">mail</i>Mail :
+                                <a href="mailto:sophro28@outlook.fr">sophro28@outlook.fr</a>
+                            </p>
+                        </div>
+                        <div class="col l12">
+                            <i class="material-icons">phone</i>Téléphone :
+                            <a href="tel:+33789331635">07 89 33 16 35</a>
+                        </div>
+                        <div class="col l12">
+                            <i class="material-icons">room</i>
+                            Adresse
+                            <a href="https://goo.gl/maps/tQ8qzUKrGVQ2">50 rue Chanzy 28000 CHARTRES</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--
-        <footer>
-            <div class="container">
-                <p>Thierry Fond Sophrologue 50 rue Chanzy 28000 CHARTRES 07 89 33 16 35</p>
-            </div>
-        </footer> -->
         <script>
+            $(".dropdown-button").dropdown();
             $(".button-collapse").sideNav();
             $(document).ready(function() {
                 $('.js-scrollTo').on('click', function() { // Au clic sur un élément
