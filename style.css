@@ -12,7 +12,8 @@
 }
 
 .navbar-fixed img {
-    width: 30%;
+    padding-top: 1%;
+    width: 25%;
     margin-left: 5%;
 }
 
@@ -112,7 +113,7 @@ table {
 }
 
 .paragraphe1 {
-    top: 50%;
+    top: 40%;
 }
 
 
@@ -132,7 +133,7 @@ table {
 }
 
 .paragraphe2 {
-    top: 55%;
+    top: 30%;
 }
 
 
@@ -149,6 +150,15 @@ table {
     background-color: black;
 }
 
+.carte, .coordonnee, .heure, .tarifs {
+    width: 30%;
+    height: 40%;
+}
+
+.commentaire {
+    width: 20%;
+}
+
 
 /*carré tarifs*/
 
@@ -158,6 +168,10 @@ table {
 
 .smallcell {
     width: : 30%;
+}
+.tarifs p{
+  font-size: 1.2em;
+  text-align: center;
 }
 
 
@@ -174,6 +188,7 @@ h4 {
     margin-top: 5%;
     font-size: 1.3em;
 }
+
 
 /*carré carte*/
 
