@@ -41,9 +41,10 @@ ul li a {
 /*tous les container*/
 
 body {
-    width: 98vw;
+    width: 99vw;
     height: 100vh;
     background-color: black;
+    font-size: 16px;
 }
 
 .container {
@@ -96,7 +97,13 @@ i {
 table {
     font-size: 0.8em;
 }
-
+.side-nav{
+  background-color: black;
+}
+.side-nav li a{
+  color: white;
+  font-weight:bold;
+}
 
 /*fin de tous les container*/
 
@@ -155,10 +162,13 @@ table {
     height: 40%;
 }
 
+.tarifs, .heure{
+  padding-bottom: 350px!important;
+}
+
 .commentaire {
     width: 20%;
 }
-
 
 /*carré tarifs*/
 
@@ -203,7 +213,6 @@ h4 {
     line-height: 10px;
 }
 
-
 /*début de commentaire*/
 
 .commentaire p {
@@ -217,6 +226,25 @@ h4 {
 
 
 /*mediaquerie*/
+@media (min-width: 1000px) and (max-width: 1400px) {
+    body {
+        font-size: 13px;
+    }
+    .paragraphe1 {
+        top: 30%;
+    }
+    .namewebsite{
+      padding-left: 2%;
+    }
+}
+@media (min-width: 800px) and (max-width: 1000px){
+  .paragraphe1, .paragraphe2{
+    top: 8%;
+  }
+  .namewebsite{
+    font-size: 1.8em;
+    padding-left : 50%;
+  }
 
-
+}
 /*fin de mediaquerie*/
