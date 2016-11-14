@@ -242,9 +242,11 @@ h4 {
     top: 8%;
   }
   .namewebsite{
-    font-size: 1.8em;
-    padding-left : 50%;
+    font-size: 1.4em;
+    padding-left: 50%;
   }
-
+  .navbar-fixed ul li a{
+    font-size: 1.3em;
+  }
 }
 /*fin de mediaquerie*/
