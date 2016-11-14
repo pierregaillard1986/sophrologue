@@ -44,7 +44,7 @@ body {
     width: 99vw;
     height: 100vh;
     background-color: black;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .container {
@@ -80,7 +80,7 @@ h2 {
 }
 
 p, td {
-    font-size: 1.4em;
+    font-size: 2em;
     text-align: justify;
 }
 
@@ -120,7 +120,7 @@ table {
 }
 
 .paragraphe1 {
-    top: 40%;
+    top: 15%;
 }
 
 
@@ -230,23 +230,22 @@ h4 {
     body {
         font-size: 13px;
     }
-    .paragraphe1 {
-        top: 30%;
-    }
     .namewebsite{
       padding-left: 2%;
     }
 }
 @media (min-width: 800px) and (max-width: 1000px){
   .paragraphe1, .paragraphe2{
-    top: 8%;
-  }
+    top: 0%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));  }
   .namewebsite{
     font-size: 1.4em;
-    padding-left: 50%;
   }
   .navbar-fixed ul li a{
     font-size: 1.3em;
+  }
+  .brand-logo{
+    left: 20%!important;
   }
 }
 /*fin de mediaquerie*/
