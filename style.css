@@ -44,7 +44,7 @@ body {
     width: 99vw;
     height: 100vh;
     background-color: black;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .container {
@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 1.8em;
     text-align: center;
     text-shadow: -1px -1px 1px black;
     font-family: "AppleGaramond";
@@ -80,7 +80,7 @@ h2 {
 }
 
 p, td {
-    font-size: 2em;
+    font-size: 1.4em;
     text-align: justify;
 }
 
@@ -180,7 +180,7 @@ table {
     width: : 30%;
 }
 .tarifs p{
-  font-size: 1.2em;
+  font-size: 1.0em;
   text-align: center;
 }
 
@@ -218,7 +218,7 @@ h4 {
 .commentaire p {
     font-size: 0.7em;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 
@@ -247,5 +247,19 @@ h4 {
   .brand-logo{
     left: 20%!important;
   }
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+    body {
+        font-size: 13px;
+    }
+    .namewebsite{
+      padding-left: 2%;
+    }
+}
+@media (min-width: 700px) and (max-width: 800px){
+.paragraphe1, .paragraphe2{
+  top: 0;
+  font-size: 1.84em;
+}
 }
 /*fin de mediaquerie*/
