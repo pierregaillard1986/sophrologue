@@ -1,265 +1,280 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Comfortaa-Regular";
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-
-/*barre de navigation*/
-
-.navbar-fixed {
-    width: 100%;
-}
-
-.navbar-fixed img {
-    padding-top: 1%;
-    width: 25%;
-    margin-left: 5%;
-}
-
-.namewebsite {
-    margin-left: 12%;
-    font-size: 2.2em;
-    font-family: "AppleGaramond";
-    font-weight: bold;
-}
-
-ul li a {
-    font-size: 1.5em;
-    font-family: "AppleGaramond";
-    font-weight: bold;
-}
-
-.align {
-    text-align: center;
-}
-
-
-/* fin de barre de navigation*/
-
-
-/*tous les container*/
-
-body {
-    width: 99vw;
-    height: 100vh;
-    background-color: black;
-    font-size: 16px;
-}
-
-.container {
-    width: 100%;
-    height: 100vh;
-    max-width: none;
-    color: white;
-}
-
-.paragraphe1, .paragraphe2 {
-    position: relative;
-    border-radius: 10px;
-    padding-left: 1%!important;
-    padding-bottom: 1%!important;
-    padding-right: 1%!important;
-    text-shadow: 1px 1px 1px black;
-}
-
-h1 {
-    font-size: 3em;
-    padding-top: 30px;
-    text-align: center;
-    font-family: "AppleGaramond";
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 1.8em;
-    text-align: center;
-    text-shadow: -1px -1px 1px black;
-    font-family: "AppleGaramond";
-    font-weight: bold;
-}
-
-p, td {
-    font-size: 1.4em;
-    text-align: justify;
-}
-
-a {
-    color: inherit;
-    font-size: inherit;
-    font-size: 1.0em;
-}
-
-i {
-    padding-right: 3%;
-}
-
-table {
-    font-size: 0.8em;
-}
-.side-nav{
-  background-color: black;
-}
-.side-nav li a{
-  color: white;
-  font-weight:bold;
-}
-
-/*fin de tous les container*/
-
-
-/*début container1*/
-
-.container1 {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: url(thierry_fond.jpg);
-    background-size: cover;
-}
-
-.paragraphe1 {
-    top: 15%;
-}
-
-
-/*fin début container1*/
-
-
-/*début container2*/
-
-.container2 {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: url(bulle.jpg);
-    background-size: cover;
-    border-top: 15px solid black;
-}
-
-.paragraphe2 {
-    top: 30%;
-}
-
-
-/*fin début container2*/
-
-
-/*début container3*/
-
-.container3 {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
-
-.carte, .coordonnee, .heure, .tarifs {
-    width: 30%;
-    height: 40%;
-}
-
-.tarifs, .heure{
-  padding-bottom: 350px!important;
-}
-
-.commentaire {
-    width: 20%;
-}
-
-/*carré tarifs*/
-
-.bigcell {
-    width: 70%;
-}
-
-.smallcell {
-    width: : 30%;
-}
-.tarifs p{
-  font-size: 1.0em;
-  text-align: center;
-}
-
-
-/*carré contact*/
-
-h4 {
-    font-size: 2em;
-    text-align: center;
-    font-family: "AppleGaramond";
-}
-
-.coordonnees {
-    margin-left: 20%;
-    margin-top: 5%;
-    font-size: 1.3em;
-}
-
-
-/*carré carte*/
-
-.carte iframe {
-    margin: 5%;
-}
-
-
-/*carré horaire*/
-
-.heure table tr {
-    line-height: 10px;
-}
-
-/*début de commentaire*/
-
-.commentaire p {
-    font-size: 0.7em;
-    text-align: center;
-    padding-top: 40px;
-}
-
-
-/*fin début container3*/
-
-
-/*mediaquerie*/
-@media (min-width: 1000px) and (max-width: 1400px) {
     body {
-        font-size: 13px;
+        background-color: black;
     }
-    .namewebsite{
-      padding-left: 2%;
+    /*barre de navigation*/
+
+    .navbar-fixed nav a img {
+        width: 25%;
+        padding-top: 1%;
+        padding-left: 1%;
     }
-}
-@media (min-width: 800px) and (max-width: 1000px){
-  .paragraphe1, .paragraphe2{
-    top: 0%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));  }
-  .namewebsite{
-    font-size: 1.4em;
-  }
-  .navbar-fixed ul li a{
-    font-size: 1.3em;
-  }
-  .brand-logo{
-    left: 20%!important;
-  }
-}
-@media (min-width: 1000px) and (max-width: 1400px) {
-    body {
-        font-size: 13px;
+
+    .navbar-fixed nav .namewebsite {
+        padding-left: 11%;
+        font-size: 25px;
+        font-weight: bold;
     }
-    .namewebsite{
-      padding-left: 2%;
+
+    .navbar-fixed nav ul li a {
+        font-size: 16px;
+        font-weight: bold;
     }
-}
-@media (min-width: 700px) and (max-width: 800px){
-.paragraphe1, .paragraphe2{
-  top: 0;
-  font-size: 1.84em;
-}
-}
-/*fin de mediaquerie*/
+
+    .navbar-fixed nav .nav-wrapper .side-nav {
+        background-color: black;
+    }
+
+    .navbar-fixed nav .nav-wrapper .side-nav li a {
+        color: white;
+    }
+    /*fin de barre de navigation*/
+    /*container page*/
+
+    .container {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container .row .container1, .container .row .container2 {
+        border-left: 20px solid black;
+        border-right: 10px solid black;
+    }
+
+    .container .row .container1 {
+        border-bottom: 15px solid black;
+    }
+    /*fin de container page*/
+    /*bloc 1*/
+
+    .container .row .container1 {
+        background-image: url(thierry_fond.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .row .container1 .paragraphe1 {
+        position: relative;
+        top: 15%;
+    }
+
+    .container1 .paragraphe1 h2 {
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        text-shadow: 1px 1px 1px black
+    }
+
+    .container1 .paragraphe1 p {
+        text-align: justify;
+        color: white;
+        font-size: 16px;
+        text-shadow: 1px 1px 1px black
+    }
+    /*fin de bloc1*/
+    /*bloc 2 */
+
+    .container .row .container2 {
+        background-image: url(bulle.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .row .container2 .paragraphe2 {
+        position: relative;
+        top: 15%;
+    }
+
+    .container2 .paragraphe2 h2 {
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        text-shadow: 1px 1px 1px black
+    }
+
+    .container2 .paragraphe2 p {
+        text-align: justify;
+        color: white;
+        font-size: 16px;
+        text-shadow: 1px 1px 1px black;
+    }
+    /*fin de bloc 2*/
+    /*debut de bloc 3*/
+
+    .container .row .container3 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .row .container3 h1 {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+    .container .row .container3 .coordonnee h4 {
+        text-align: center;
+        color: white;
+    }
+
+    .coordonnee .coordonnees {
+        padding-top: 5%;
+        padding-bottom: 37%;
+    }
+
+    .coordonnees .left {
+        padding-left: 25%;
+        color: white;
+    }
+
+    .container3 .heure tr td {
+        color: white
+    }
+
+    .container3 .heure tr th {
+        color: white;
+        text-align: center;
+    }
+
+    .container3 .heure .align {
+        text-align: center;
+    }
+
+    .tarifs table tr th, .tarifs table tr td, .tarifs p {
+        color: white;
+    }
+
+    .tarifs table tr th {
+        text-align: center;
+    }
+
+    .commentaire p {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 5%;
+    }
+    /*fin de bloc 3*/
+    /*media query smartphone*/
+
+    @media (min-width: 800px) and (max-width: 1000px) {
+        .container .row .container1 .paragraphe1 {
+            top: 1%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            border-radius: 15px;
+        }
+        .container .row .container2 .paragraphe2 {
+            top: 65%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            border-radius: 15px;
+        }
+        .container1 .paragraphe1 p, .container .paragraphe2 p {
+            font-size: 17px;
+        }
+        .coordonnee .coordonnees {
+            padding-bottom: 20%;
+        }
+        .brand-logo {
+            left: 26%!important;
+        }
+        .navbar-fixed nav .namewebsite {
+            padding-left: 15%;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 800px) {
+        .container .row .container1 .paragraphe1 {
+            top: 1%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            border-radius: 15px;
+        }
+        .container .row .container2 .paragraphe2 {
+            top: 60%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            border-radius: 15px;
+        }
+        .container1 .paragraphe1 p .container .paragraphe2 p {
+            font-size: 17px;
+        }
+        .coordonnee .coordonnees {
+            padding-bottom: 20%;
+        }
+        .brand-logo {
+            left: 33%!important;
+        }
+        .navbar-fixed nav .namewebsite {
+            padding-left: 20%;
+        }
+    }
+
+    @media (min-width: 400px) and (max-width: 600px) {
+        .container .row .container1 .paragraphe1 {
+            top: 1%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+            border-radius: 15px;
+        }
+        .container .row .container2 .paragraphe2 {
+            top: 50%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+            border-radius: 15px;
+        }
+        .container1 .paragraphe1 p .container .paragraphe2 p {
+            font-size: 17px;
+        }
+        .coordonnee .coordonnees {
+            padding-bottom: 20%;
+        }
+        .brand-logo {
+            left: 35%!important;
+        }
+        .navbar-fixed nav .namewebsite {
+            padding-left: 22%;
+            font-size: 16px;
+        }
+    }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+        .coordonnees .left {
+            padding-left: 5%;
+        }
+        .container .row .container1 .paragraphe1 {
+            top: 0%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+            border-radius: 15px;
+        }
+        .container .row .container2 .paragraphe2 {
+            top: 20%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+            border-radius: 15px;
+        }
+        .container1 .paragraphe1 p .container .paragraphe2 p {
+            font-size: 19px;
+        }
+        .coordonnee .coordonnees {
+            padding-bottom: 20%;
+        }
+        .brand-logo {
+            left: 20%!important;
+        }
+        .brand-logo {
+            left: 35%!important;
+        }
+        .navbar-fixed nav .namewebsite {
+            padding-left: 22%;
+            font-size: 14px;
+            font-weight: normal;
+
+        }
+    }
+    /*fin de media query smartphone*/
