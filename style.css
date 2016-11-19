@@ -2,7 +2,10 @@
         margin: 0;
         padding: 0;
     }
-
+    em{
+      font-style: normal;
+      text-decoration: none!important;
+    }
     body {
         background-color: black;
     }
@@ -75,7 +78,7 @@
     .container1 .paragraphe1 p {
         text-align: justify;
         color: white;
-        font-size: 16px;
+        font-size: 19px;
         text-shadow: 1px 1px 1px black
     }
     /*fin de bloc1*/
@@ -104,7 +107,7 @@
     .container2 .paragraphe2 p {
         text-align: justify;
         color: white;
-        font-size: 16px;
+        font-size: 19px;
         text-shadow: 1px 1px 1px black;
     }
     /*fin de bloc 2*/
