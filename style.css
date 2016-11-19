@@ -2,10 +2,12 @@
         margin: 0;
         padding: 0;
     }
-    em{
-      font-style: normal;
-      text-decoration: none!important;
+
+    em {
+        font-style: normal;
+        text-decoration: none!important;
     }
+
     body {
         background-color: black;
     }
@@ -44,6 +46,16 @@
         padding: 0;
     }
 
+    .container .row .container1 .certification {
+        text-align: center;
+        font-size: 12px;
+        top: 0%;
+        background-color: black;
+        color: white;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+
     .container .row .container1, .container .row .container2 {
         border-left: 20px solid black;
         border-right: 10px solid black;
@@ -51,6 +63,7 @@
 
     .container .row .container1 {
         border-bottom: 15px solid black;
+        padding: 0;
     }
     /*fin de container page*/
     /*bloc 1*/
@@ -277,7 +290,6 @@
             padding-left: 22%;
             font-size: 14px;
             font-weight: normal;
-
         }
     }
     /*fin de media query smartphone*/
