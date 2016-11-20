@@ -256,7 +256,7 @@
             border-radius: 15px;
         }
         .container1 .paragraphe1 p, .container .paragraphe2 p {
-            font-size: 17px;
+            font-size: 16px;
         }
         .coordonnee .coordonnees {
             padding-bottom: 20%;
@@ -276,12 +276,12 @@
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 30%;
+            top: 20%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             border-radius: 15px;
         }
         .container1 .paragraphe1 p, .container .paragraphe2 p {
-            font-size: 15px;
+            font-size: 14px;
         }
         .coordonnee .coordonnees {
             padding-bottom: 20%;
@@ -305,12 +305,12 @@
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 10%;
+            top: 5%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
             border-radius: 15px;
         }
         .container1 .paragraphe1 p, .container .paragraphe2 p {
-            font-size: 15px;
+            font-size: 14px;
         }
         .coordonnee .coordonnees {
             padding-bottom: 20%;
