@@ -246,16 +246,16 @@
 
     @media (min-width: 600px) and (max-width: 800px) {
         .container .row .container1 .paragraphe1 {
-            top: 1%;
+            top: 0%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 60%;
+            top: 0%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
             border-radius: 15px;
         }
-        .container1 .paragraphe1 p .container .paragraphe2 p {
+        .container1 .paragraphe1 p, .container .paragraphe2 p {
             font-size: 17px;
         }
         .coordonnee .coordonnees {
@@ -276,12 +276,12 @@
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 50%;
+            top: 30%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             border-radius: 15px;
         }
-        .container1 .paragraphe1 p .container .paragraphe2 p {
-            font-size: 17px;
+        .container1 .paragraphe1 p, .container .paragraphe2 p {
+            font-size: 15px;
         }
         .coordonnee .coordonnees {
             padding-bottom: 20%;
@@ -305,12 +305,12 @@
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 20%;
+            top: 10%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
             border-radius: 15px;
         }
-        .container1 .paragraphe1 p .container .paragraphe2 p {
-            font-size: 19px;
+        .container1 .paragraphe1 p, .container .paragraphe2 p {
+            font-size: 15px;
         }
         .coordonnee .coordonnees {
             padding-bottom: 20%;
