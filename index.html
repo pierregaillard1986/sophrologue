@@ -21,6 +21,8 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     </head>
     <body>
         <div class="navbar-fixed">
@@ -188,7 +190,8 @@
                                     <td class="bigcell">Individuelle d’une heure pour les
                                         <em>demandeurs d’emploi</em>, les
                                         <em>étudiants</em>, les
-                                        <em>adolescents</em> (justificatif exigé).</td>
+                                        <em>adolescents</em>
+                                        (justificatif exigé).</td>
                                     <td class="smallcell align">40 €</td>
                                 </tr>
                                 <tr>
@@ -215,24 +218,54 @@
                             <em>consultation</em>
                             non-annulée au minimum 48h à l'avance est due.
                         </p>
+                        <script>
+                            $(document).ready(function() {
+                                $(".button-collapse").sideNav();
+                                $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+                                    var page = $(this).attr('href'); // Page cible
+                                    var speed = 750; // Durée de l'animation (en ms)
+                                    $('html, body').animate({
+                                        scrollTop: $(page).offset().top
+                                    }, speed); // Go
+                                    return false;
+                                });
+                            });
+                            $(document).ready(function() {
+                                $('.modal-trigger').leanModal();
+                            });
+                        </script>
+                        <!-- modal mentions -->
+                        <div class="col l12 m12 s12 mentions">
+                            <button data-target="modal1" class="btn-flat modal-trigger">MENTIONS LEGALES</button>
+                            <div id="modal1" class="modal modal-fixed-footer">
+                                <div class="modal-content">
+                                    <h4>Mentions légales</h4>
+                                    <h5>Article 19 de la Loi N° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique</h5>
+                                    <p>
+                                        Sans préjudice des autres obligations d'information prévues par les textes législatifs et réglementaires en vigueur, toute personne qui exerce l'activité définie à l'article 14 est tenue d'assurer à ceux à qui est destinée la fourniture de biens ou
+                                        la prestation de services un accès facile, direct et permanent utilisant un standard ouvert aux informations suivantes :
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <ol>
+                                        <li>S'il s'agit d'une personne physique, ses nom et prénoms et, s'il s'agit d'une personne morale, sa raison sociale.</li>
+                                        <li>L'adresse où elle est établie, son adresse de courrier électronique, ainsi que des coordonnées téléphoniques permettant d'entrer effectivement en contact avec elle.</li>
+                                        <li>Si elle est assujettie aux formalités d'inscription au registre du commerce et des sociétés ou au répertoire des métiers, le numéro de son inscription, son capital social et l'adresse de son siège social :
+                                            <ul>
+                                                <li>RCS Chartres: 820 914 752.</li>
+                                                <li>SIRET : 820 914 752 00028.</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Fermer</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $(".button-collapse").sideNav();
-                $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-                    var page = $(this).attr('href'); // Page cible
-                    var speed = 750; // Durée de l'animation (en ms)
-                    $('html, body').animate({
-                        scrollTop: $(page).offset().top
-                    }, speed); // Go
-                    return false;
-                });
-            });
-        </script>
     </body>
 </html>

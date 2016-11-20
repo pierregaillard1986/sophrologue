@@ -182,6 +182,41 @@
         padding-top: 5%;
     }
     /*fin de bloc 3*/
+    /*modal*/
+
+    .mentions button {
+        padding-left: 40%!important;
+        color: white;
+    }
+
+    .mentions .modal .modal-content, .mentions .modal .modal-footer {
+        background-color: black;
+        color: white;
+    }
+
+    .mentions .modal .modal-content h4, .mentions .modal .modal-content h5 {
+        text-align: center;
+    }
+
+    .mentions .modal .modal-content p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .mentions .modal .modal-content ol {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .mentions .modal .modal-content ol li ul {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .mentions .modal .modal-footer a {
+        color: white;
+    }
+    /*fin de modal*/
     /*media query smartphone*/
 
     @media (min-width: 800px) and (max-width: 1000px) {
