@@ -46,7 +46,7 @@
         padding: 0;
     }
 
-    .container .row .container1 .certification {
+    .container .row .container1 h1 {
         text-align: center;
         font-size: 12px;
         top: 0%;
@@ -54,6 +54,7 @@
         color: white;
         width: 100%;
         border-radius: 0px 0px 10px 10px;
+        margin: 0
     }
 
     .container .row .container1, .container .row .container2 {
@@ -131,7 +132,7 @@
         height: 100vh;
     }
 
-    .container .row .container3 h1 {
+    .container .row .container3 h2 {
         color: white;
         text-align: center;
         font-size: 40px;
