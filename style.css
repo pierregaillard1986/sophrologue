@@ -3,7 +3,13 @@
         padding: 0;
     }
 
+
     em {
+        font-style: normal;
+        text-decoration: none!important;
+    }
+
+    strong {
         font-style: normal;
         text-decoration: none!important;
     }
