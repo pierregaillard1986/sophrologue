@@ -76,7 +76,7 @@
     /*bloc 1*/
 
     .container .row .container1 {
-        background-image: url(thierry_fond.jpg);
+        background-image: url(thierry_fond3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -92,20 +92,24 @@
         text-align: center;
         color: white;
         font-size: 35px;
-        text-shadow: 1px 1px 1px black
+        text-shadow: 1px 1px 1px black;
+        font-weight: bold;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 
     .container1 .paragraphe1 p {
         text-align: justify;
         color: white;
         font-size: 19px;
-        text-shadow: 1px 1px 1px black
+        text-shadow: 1px 1px 1px black;
+        font-weight: bold;
     }
     /*fin de bloc1*/
     /*bloc 2 */
 
     .container .row .container2 {
-        background-image: url(bulle.jpg);
+        background-image: url(bulle1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -152,8 +156,7 @@
     }
 
     .coordonnee .coordonnees {
-        padding-top: 5%;
-        padding-bottom: 37%;
+        padding-top: 3%;
     }
 
     .coordonnees .left {
@@ -240,9 +243,7 @@
         .container1 .paragraphe1 p, .container .paragraphe2 p {
             font-size: 17px;
         }
-        .coordonnee .coordonnees {
-            padding-bottom: 20%;
-        }
+
         .brand-logo {
             left: 26%!important;
         }
@@ -265,9 +266,7 @@
         .container1 .paragraphe1 p, .container .paragraphe2 p {
             font-size: 16px;
         }
-        .coordonnee .coordonnees {
-            padding-bottom: 20%;
-        }
+
         .brand-logo {
             left: 33%!important;
         }
@@ -283,16 +282,14 @@
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
-            top: 20%;
+            top: 0%;
             background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             border-radius: 15px;
         }
         .container1 .paragraphe1 p, .container .paragraphe2 p {
-            font-size: 14px;
+            font-size: 16px;
         }
-        .coordonnee .coordonnees {
-            padding-bottom: 20%;
-        }
+
         .brand-logo {
             left: 35%!important;
         }
@@ -300,15 +297,21 @@
             padding-left: 22%;
             font-size: 16px;
         }
+        .container .row .container1 {
+            background-image: url(thierry_fond4.jpg);
+        }
     }
 
     @media (min-width: 300px) and (max-width: 400px) {
+      .container .row .container1 .paragraphe1 h2, .container .row .container2 .paragraphe2 h2 {
+        font-size: 18px!important;
+}
         .coordonnees .left {
             padding-left: 5%;
         }
         .container .row .container1 .paragraphe1 {
             top: 0%;
-            background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+            background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
             border-radius: 15px;
         }
         .container .row .container2 .paragraphe2 {
@@ -319,9 +322,7 @@
         .container1 .paragraphe1 p, .container .paragraphe2 p {
             font-size: 14px;
         }
-        .coordonnee .coordonnees {
-            padding-bottom: 20%;
-        }
+
         .brand-logo {
             left: 20%!important;
         }
@@ -332,6 +333,9 @@
             padding-left: 22%;
             font-size: 14px;
             font-weight: normal;
+        }
+        .container .row .container1 {
+            background-image: url(thierry_fond4.jpg);
         }
     }
     /*fin de media query smartphone*/
